@@ -16,34 +16,86 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bienvenido a" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xBa-At-hOo">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa tu correo electronico" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cx3-mI-0Dp">
+                                <rect key="frame" x="30" y="223" width="354" height="34"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fc-cM-ZZG">
                                 <rect key="frame" x="15" y="64" width="384" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUYALL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pz9-RI-ajc">
+                                <rect key="frame" x="15" y="80" width="384" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tu nueva experiencia en compras" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jw8-xn-sMO">
+                                <rect key="frame" x="15" y="111.5" width="384" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa tu contraseña" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VkA-ff-mxR">
+                                <rect key="frame" x="30" y="277" width="354" height="34"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BUYALL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9KC-ph-rQf">
-                                <rect key="frame" x="15" y="76" width="384" height="31.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tu nueva experiencia en compras" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TMW-zs-0nh">
-                                <rect key="frame" x="15" y="107.5" width="384" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recuperar contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvO-Uk-Fot">
+                                <rect key="frame" x="35" y="452" width="344" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vH5-j2-IOq">
+                                <rect key="frame" x="35" y="411" width="344" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" systemColor="tertiarySystemBackgroundColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yb-BV-n6f">
+                                <rect key="frame" x="35" y="777" width="344" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" systemColor="tertiarySystemBackgroundColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TMW-zs-0nh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="9tX-6X-Ccb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TMW-zs-0nh" secondAttribute="trailing" constant="15" id="AUB-1F-B6i"/>
-                            <constraint firstItem="xBa-At-hOo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="DQK-5t-Fvo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9KC-ph-rQf" secondAttribute="trailing" constant="15" id="Dse-ze-2pg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xBa-At-hOo" secondAttribute="trailing" constant="15" id="HV4-ji-Ftr"/>
-                            <constraint firstItem="9KC-ph-rQf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="OAs-k4-VZE"/>
-                            <constraint firstItem="TMW-zs-0nh" firstAttribute="top" secondItem="9KC-ph-rQf" secondAttribute="bottom" id="YmW-P0-1Cz"/>
-                            <constraint firstItem="9KC-ph-rQf" firstAttribute="top" secondItem="xBa-At-hOo" secondAttribute="top" constant="12" id="f0F-rA-Juj"/>
-                            <constraint firstItem="xBa-At-hOo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="uXB-8E-eJ7"/>
+                            <constraint firstItem="cx3-mI-0Dp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="179" id="0ev-3d-Sr3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vH5-j2-IOq" secondAttribute="trailing" constant="35" id="0w1-xT-bZ5"/>
+                            <constraint firstItem="Pz9-RI-ajc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="1XN-AY-IKC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jw8-xn-sMO" secondAttribute="trailing" constant="15" id="73u-Uy-jQn"/>
+                            <constraint firstItem="cx3-mI-0Dp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="DM7-Yq-HNt"/>
+                            <constraint firstItem="1fc-cM-ZZG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="E2x-6U-fVR"/>
+                            <constraint firstItem="SvO-Uk-Fot" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="F9T-lc-ehw"/>
+                            <constraint firstItem="VkA-ff-mxR" firstAttribute="top" secondItem="cx3-mI-0Dp" secondAttribute="bottom" constant="20" id="FUR-nC-w6y"/>
+                            <constraint firstItem="Pz9-RI-ajc" firstAttribute="top" secondItem="1fc-cM-ZZG" secondAttribute="bottom" constant="-5" id="NWB-US-cAn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1fc-cM-ZZG" secondAttribute="trailing" constant="15" id="QnP-mQ-Yjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cx3-mI-0Dp" secondAttribute="trailing" constant="30" id="QuE-2p-CfQ"/>
+                            <constraint firstItem="1fc-cM-ZZG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="WHi-w9-fPV"/>
+                            <constraint firstItem="SvO-Uk-Fot" firstAttribute="top" secondItem="vH5-j2-IOq" secondAttribute="bottom" constant="5" id="Xch-3c-wgl"/>
+                            <constraint firstItem="Jw8-xn-sMO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="c8W-H3-9Xh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pz9-RI-ajc" secondAttribute="trailing" constant="15" id="c9H-ro-Kp2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VkA-ff-mxR" secondAttribute="trailing" constant="30" id="glc-g8-l4q"/>
+                            <constraint firstItem="Jw8-xn-sMO" firstAttribute="top" secondItem="Pz9-RI-ajc" secondAttribute="bottom" id="hB4-po-4Ta"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SvO-Uk-Fot" secondAttribute="trailing" constant="35" id="ia5-Gk-JCy"/>
+                            <constraint firstItem="vH5-j2-IOq" firstAttribute="top" secondItem="VkA-ff-mxR" secondAttribute="bottom" constant="100" id="kt4-4f-Rud"/>
+                            <constraint firstItem="VkA-ff-mxR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="rqt-BI-ft2"/>
+                            <constraint firstItem="vH5-j2-IOq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="zvX-rW-FtI"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -53,7 +105,13 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>

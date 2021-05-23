@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Bienvenido a "; ObjectID = "1fc-cM-ZZG"; */
+"1fc-cM-ZZG.text" = "Bienvenido a ";
+
+/* Class = "UILabel"; text = "Tu nueva experiencia en compras"; ObjectID = "Jw8-xn-sMO"; */
+"Jw8-xn-sMO.text" = "Tu nueva experiencia en compras";
+
+/* Class = "UILabel"; text = "BUYALL"; ObjectID = "Pz9-RI-ajc"; */
+"Pz9-RI-ajc.text" = "BUYALL";
+
+/* Class = "UITextField"; text = "Ingresa tu contraseña"; ObjectID = "VkA-ff-mxR"; */
+"VkA-ff-mxR.text" = "Ingresa tu contraseña";
+
+/* Class = "UITextField"; text = "Ingresa tu correo electronico"; ObjectID = "cx3-mI-0Dp"; */
+"cx3-mI-0Dp.text" = "Ingresa tu correo electronico";

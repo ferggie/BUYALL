@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA019B7E265AC32D007A3820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		EAE513AE2657FCD6003334D1 /* BUYALL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUYALL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE513B12657FCD6003334D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAE513B32657FCD6003334D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAE513B82657FCD6003334D1 /* Base */,
+				EA019B7E265AC32D007A3820 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
