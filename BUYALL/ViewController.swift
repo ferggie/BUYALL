@@ -9,6 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func clickBtnLogin(_ sender: Any) {
+        
+        let random = CGFloat.random(in: 300...0)
+        
+    }
+    
+ 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
