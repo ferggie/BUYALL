@@ -13,9 +13,13 @@ class ViewController: UIViewController {
         
         let random = CGFloat.random(in: 300...0)
         
+        
+        
     }
     
- 
+    @IBAction func tapToCloseKeyboard(_ sender: Any) {
+        self.view.endEditing(true)}
+
     
     
     override func viewDidLoad() {
@@ -24,5 +28,7 @@ class ViewController: UIViewController {
     }
 
 
+
 }
+
 
